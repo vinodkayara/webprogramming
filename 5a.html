@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+	<title>program 5a</title>
+</head>
+<body>
+	<h4>Name:Vinod KS</br>USN:4MT21IS060</h4>
+	<h1>Order Form</h1>
+	<form action="process_order.php" method="post">
+        <strong><label for="name">Name:</label></strong>
+        <input type="text" id="name" name="name" required><br>
+	
+        <strong><p>Choose the light bulb package:</p></strong>
+        <input type="checkbox" id="bulbs1" name="bulbs[]" value="4_100w_bulbs">
+        <label for="bulbs1">Four 100-watt light bulbs for $2.39</label><br>
+
+        <input type="checkbox" id="bulbs2" name="bulbs[]" value="8_100w_bulbs">
+        <label for="bulbs2">Eight 100-watt light bulbs for $4.29</label><br>
+
+        <input type="checkbox" id="bulbs3" name="bulbs[]" value="4_100w_longlife_bulbs">
+        <label for="bulbs3">Four 100-watt, long-life light bulbs for $3.95</label><br>
+
+        <input type="checkbox" id="bulbs4" name="bulbs[]" value="8_100w_longlife_bulbs">
+        <label for="bulbs4">Eight 100-watt, long-life light bulbs for $7.49</label><br>
+
+        <strong><p>Select your payment method:</p></strong>
+        <input type="radio" id="visa" name="payment" value="visa" required>
+        <label for="visa">Visa</label><br>
+
+        <input type="radio" id="mastercard" name="payment" value="mastercard">
+        <label for="mastercard">Mastercard</label><br>
+
+        <input type="radio" id="discover" name="payment" value="discover">
+        <label for="discover">Discover</label><br>
+        
+	</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>Program 7b</title>
+<style>
+body{
+	font-family:serif,Time new Roman;
+}
+#embedded-box{
+float:left;
+width:150px;
+background_color:#4D9537;
+padding:10px;
+font-size:12px;
+font-style:italic;
+}
+</style>
+</head>
+<body>
+<h1>Vinayaka Damodar Savarkar</h1>
+<div id="embedded-box">
+<p>know about the life style of Vinayaka Damodar Savrkar</p>
+</div>
+<p>Vinayak Damodar Savarkar, also referred to as Veer Savarkar, was a writer, activist, and politician in India. While detained at Ratnagiri in 1922, Savarkar created the Hindu nationalist political theory known as Hindutva. Vinayak Damodar Savarkar held a position of prominence in the Hindu Mahasabha. When he authored his autobiography, he started adopting the honorific prefix Veer, which means “brave.”
+Vinayak Damodar Savarkar was born on May 28, 1883 in the Marathi Chitpavan Brahmin Hindu household of Damodar and Radhabai Savarkar in the village of Bhagur, close to the city of Nashik, Maharashtra. Vinayak Damodar Savarkar also had a sister named Maina and two additional siblings named Ganesh and Narayan.</p>
+</body>
+</html>
+
+
