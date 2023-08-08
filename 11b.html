@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head><title>Program 11b</title></head>
+<h3>Vinod K S<br/>4MT21IS060</h3>
+<body>
+<h1>Printing digit in reverse order </h1>
+<script type="text/javascript">
+function disp(str)
+{
+var n=0,r=0,res=0
+n=str.value
+if((n>0)||n==0)
+{
+while (n!=0)
+{
+r=n%10
+n=Math.floor(n/10)
+res=res*10+r
+}
+alert("The reverse of the number is:"+res)
+}
+else alert("Enter a valid number")
+}
+</script>
+<form>
+<p>
+Number:<input type="text" name="str"/>
+<input type="button"value="find"onclick="disp(str)"/>
+</p>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
